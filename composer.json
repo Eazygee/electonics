@@ -14,7 +14,9 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
-        "laravel/ui": "^3.4"
+        "laravel/ui": "^3.4",
+        "techies-africa/devpilot_laravel": "^1.0",
+        "techies-africa/laravel_trakker": "^1.01"
     },
     "require-dev": {
         "facade/ignition": "^2.3.6",

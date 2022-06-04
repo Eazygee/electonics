@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d5c3912e0b0eaf7de4cf89c2a741739",
+    "content-hash": "20f5b646923ba521764264f064f84954",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5185,6 +5185,108 @@
                 }
             ],
             "time": "2022-04-26T13:19:20+00:00"
+        },
+        {
+            "name": "techies-africa/devpilot_laravel",
+            "version": "1.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Techies-Africa/devpilot_laravel.git",
+                "reference": "42e93d067268031f681b81c83f2eefe2dd1759c5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Techies-Africa/devpilot_laravel/zipball/42e93d067268031f681b81c83f2eefe2dd1759c5",
+                "reference": "42e93d067268031f681b81c83f2eefe2dd1759c5",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.0|^7.0",
+                "illuminate/support": "^6.0|^7.0|^8.0|^9.0",
+                "php": "^7.2|^8.0",
+                "symfony/console": "^4.3|^5.0|^6.0",
+                "symfony/process": "^4.3|^5.0|^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "TechiesAfrica\\Devpilot\\Providers\\DevpilotServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TechiesAfrica\\Devpilot\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Confidence Ugolo",
+                    "email": "ugoloconfidence@gmail.com"
+                }
+            ],
+            "description": "Official laravel client for Devpilot",
+            "keywords": [
+                "autodeploy",
+                "ci cd",
+                "deploy",
+                "deployments",
+                "devpilot",
+                "laravel",
+                "ssh",
+                "techies africa"
+            ],
+            "support": {
+                "issues": "https://github.com/Techies-Africa/devpilot_laravel/issues",
+                "source": "https://github.com/Techies-Africa/devpilot_laravel/tree/1.0.9"
+            },
+            "time": "2022-05-26T11:29:53+00:00"
+        },
+        {
+            "name": "techies-africa/laravel_trakker",
+            "version": "v1.01",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Techies-Africa/laravel_trakker_client.git",
+                "reference": "9d9b99b16404df9ae5d2c781888af7e560ed51b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Techies-Africa/laravel_trakker_client/zipball/9d9b99b16404df9ae5d2c781888af7e560ed51b5",
+                "reference": "9d9b99b16404df9ae5d2c781888af7e560ed51b5",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "TechiesAfrica\\LaravelTrakker\\Providers\\TrakkerServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TechiesAfrica\\LaravelTrakker\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Confidence Ugolo",
+                    "email": "ugoloconfidence@gmail.com"
+                }
+            ],
+            "description": "Official Laravel client for Trakker",
+            "support": {
+                "issues": "https://github.com/Techies-Africa/laravel_trakker_client/issues",
+                "source": "https://github.com/Techies-Africa/laravel_trakker_client/tree/v1.01"
+            },
+            "time": "2021-12-18T16:18:02+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
